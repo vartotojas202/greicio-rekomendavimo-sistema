@@ -16,5 +16,4 @@ python code/demo.py --segment 12 --time "2026-01-02 07:00"
 ```
 Visa grandinė ~6-7 min. 1 CPU branduolyje, ~4 GB RAM. Dockerfile: `docker build -t speedrec . && docker run speedrec`.
 
-## Perėjimas prie realių duomenų
-Sukurkite lentelę su tais pačiais stulpeliais kaip `data/sample_3days.csv` (met_*, rws_*, pws_*, fc_*, traffic, ruožo atributai), o etiketę `v_safe` pakeiskite etikete iš eismo įvykių / trinties duomenų. Raktai: WU_API_KEY, WINDY_API_KEY, Netatmo OAuth token (aplinkos kintamieji).
+
